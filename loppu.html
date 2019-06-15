@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. All occurrences of existing tokens will be replaced by their appropriate values.
+	4. Blank lines will be removed automatically.
+	5. Remove unnecessary comments before creating your template.
+-->
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="authoring-tool" content="Adobe_Animate_CC">
+<title>loppu</title>
+<!-- write your code here -->
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<script src="createjs.js"></script>
+<script src="loppu.js"></script>
+<script src="animate.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lato|Raleway|Roboto&display=swap" rel="stylesheet">
+
+<!--<script src="resizer.js"></script> -->
+<!-- write your code here -->
+</head>
+<body onload="init();" style="margin:0px;">
+  <div class="ongostudios" style="z-index: 3; position: absolute; left: 50%; top: 35%;">
+    <div style="position: relative; left: -50%;">
+      <div id="ongo">ONGO<br/></div>
+      <div id="studios">Studios</div>
+    </div>
+  </div>
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:1920px; height:1080px">
+		<canvas id="canvas" width="1920" height="1080" style="position: absolute; left: 0px; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1920px; height:1080px; position: absolute; left: 100px; top: 0px; display: block;">
+		</div>
+	</div>
+</body>
+</html>
