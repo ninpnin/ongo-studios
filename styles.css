@@ -2,10 +2,6 @@
 	font-size: 116pt;
 }
 
-#studios {
-	font-size: 100pt;
-}
-
 .ongostudios {
 	margin-left: calc(5% - 6px);
 	font-family: 'Raleway', sans-serif;
@@ -14,7 +10,7 @@
 	width: calc(95% - 2px);
 	overflow: hidden;
 	position: absolute;
-    bottom: 8%;
+    bottom: 50pt;
     z-index: 1;
 }
 
@@ -23,7 +19,18 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: calc(100% - 150pt);
 	z-index: 2;
-	background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0));
+	background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.0));
+}
+
+
+#studios {
+	font-size: 100pt;
+	color: black;
+	z-index: 100;
+}
+
+#studios:hover {
+	text-decoration: none;
 }
